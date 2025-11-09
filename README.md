@@ -7,7 +7,7 @@ Genera subtítulos `.vtt` en español a partir de archivos `.wav` en inglés, us
 Clona el repositorio y crea un entorno virtual:
 
 ```bash
-git clone https://github.com/TU_USUARIO/SubVtt.git
+git clone git@github.com:EmmaSanchg/SubVtt.git
 cd SubVtt
 python3 -m venv venv
 source venv/bin/activate
