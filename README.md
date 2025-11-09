@@ -1,0 +1,14 @@
+# SubVtt 🎧 → 📜
+
+Genera subtítulos `.vtt` en español a partir de archivos `.wav` en inglés, usando Whisper y Deep Translator.
+
+## 🚀 Instalación
+
+Clona el repositorio y crea un entorno virtual:
+
+```bash
+git clone https://github.com/TU_USUARIO/SubVtt.git
+cd SubVtt
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
