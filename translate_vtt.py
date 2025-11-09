@@ -6,7 +6,7 @@ def transcribe_audio_to_vtt(audio_path, output_vtt):
     print("Usando dispositivo:", "cuda" if whisper.torch.cuda.is_available() else "cpu")
 
     # Carga el modelo Whisper (puedes cambiar a "base" o "large" según la GPU)
-    model = whisper.load_model("small")
+    model = whisper.load_model("large")
 
     print("Transcribiendo audio...")
     result = model.transcribe(audio_path, task="transcribe", language="en")
